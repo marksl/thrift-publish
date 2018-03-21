@@ -1,2 +1,3 @@
 # thrift-publish
-Publish Thrift DotNet Standard
+
+Script to publish a Dot Net Standard package of Thrift.

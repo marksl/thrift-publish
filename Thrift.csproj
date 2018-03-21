@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Thrift.Netstandard</AssemblyName>
+    <PackageId>Thrift.Netstandard</PackageId>
+    <PackageVersion>0.11.0-alpha1</PackageVersion>
+    <Description>Apache Thrift DotNet Standard 2.0</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/marksl/thrift-publish</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/apache/thrift</RepositoryUrl>
+
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="[2.0,)" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="[2.0,)" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="[2.0,)" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="[2.0,)" />
+    <PackageReference Include="System.IO.Pipes" Version="[4.3,)" />
+    <PackageReference Include="System.Net.Http.WinHttpHandler" Version="4.4.0" />
+    <PackageReference Include="System.Net.NameResolution" Version="[4.3,)" />
+    <PackageReference Include="System.Net.Requests" Version="[4.3,)" />
+    <PackageReference Include="System.Net.Security" Version="[4.3,)" />
+  </ItemGroup>
+
+</Project>
